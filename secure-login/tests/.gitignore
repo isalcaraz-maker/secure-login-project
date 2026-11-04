@@ -1,0 +1,8 @@
+node_modules/
+.auth-config.json
+certs/
+*.pem
+*.key
+*.log
+.env
+tests/tmp-tls-*/
