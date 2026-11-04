@@ -1,0 +1,13 @@
+{
+  "name": "classroom-secure-login",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.7.0" },
+  "scripts": {
+    "setup": "node setup.mjs",
+    "dev": "node server.mjs --dev",
+    "start": "node server.mjs",
+    "test": "node --test tests/security.test.mjs"
+  }
+}
